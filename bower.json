@@ -1,0 +1,22 @@
+{
+  "name": "vless",
+  "version": "0.0.1",
+  "homepage": "https://github.com/vivijiang/Vless",
+  "authors": [
+    "Vivi Jiang <vivi.jiang@ef.com>"
+  ],
+  "description": "A lightweight frontend framework for ITIS",
+  "main": "vless",
+  "keywords": [
+    "responsive",
+    "lightweight"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

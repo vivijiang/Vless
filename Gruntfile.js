@@ -26,15 +26,14 @@ module.exports = function (grunt) {
     },
 
     less: {
-        compile: {
-            options: {
-                strictMath: true
-            },
-            files: {
-                'dist/css/<%= pkg.name %>.css': 'less/*.less'
-            }
+      compile: {
+        options: {
+          strictMath: true
+        },
+        files: {
+          'dist/css/<%= pkg.name %>.css': 'less/vless.less',
         }
-    },
+      },
       minify: {
         options: {
           cleancss: true,
@@ -43,7 +42,8 @@ module.exports = function (grunt) {
         files: {
           'dist/css/<%= pkg.name %>.min.css': 'dist/css/<%= pkg.name %>.css',
         }
-      },
+      }
+    },
 
       usebanner: {
           dist: {
