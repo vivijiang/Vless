@@ -1,6 +1,6 @@
 /*!
  * Vless v1.0.0 (https://github.com/vivijiang)
- * Copyright 2013 Vivi Jiang
+ * Copyright 2014 Vivi Jiang
  */
 
 
@@ -344,6 +344,9 @@ table {
   border-spacing: 0;
   border-collapse: collapse;
 }
+body {
+  width: 100%;
+}
 a {
-  color: #08c;
+  color: #5b83ad;
 }
